@@ -1,14 +1,19 @@
-import Nav from '../components/nav'
+import { useEffect } from "react";
+import Head from "next/head";
+import Router from "next/router";
+import i18nConfig from "../i18n";
 
-export default function IndexPage() {
+const {
+  config: { defaultLanguage },
+} = i18nConfig;
+
+export default function Index() {
+  useEffect(() => {
+    Router.replace(`/${defaultLanguage}`);
+  }, []);
   return (
-    <div>
-      <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-accent-1">
-          Next.js + Tailwind CSS
-        </h1>
-      </div>
-    </div>
-  )
+    <Head>
+      <meta name='robots' content='noindex, nofollow' />
+    </Head>
+  );
 }
