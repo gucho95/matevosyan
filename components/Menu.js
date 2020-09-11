@@ -21,7 +21,7 @@ const Menu = ({ t, i18n }) => {
         <div className='w-full h-full fixed bg-black text-white z-40 top-0 left-0 flex justify-center items-center   '>
           <ul className='menu-in-anim'>
             {Items(language).map((item, key) => (
-              <li className='text-6xl text-center  hover:opacity-75'>
+              <li className='text-6xl text-center  hover:opacity-75 hover:animate-border-white border-2 border-transparent'>
                 <Link href={item.href}>
                   <a children={t(item.t_key)} />
                 </Link>

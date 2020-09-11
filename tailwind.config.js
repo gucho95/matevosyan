@@ -25,12 +25,19 @@ module.exports = {
       padding: {
         "75px": "75px",
       },
+      animation: {
+        "slide-fwd-center": "slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both",
+        border: "border-anim 0.7s steps(3,end) infinite",
+        "border-white": "border-anim-white 0.7s steps(3,end) infinite",
+      },
       colors: {
         "primary-dark": "#212121",
         "primary-light": "#f0f0f0",
       },
     },
   },
-  variants: {},
+  variants: {
+    animation: ["hover"],
+  },
   plugins: [],
 };

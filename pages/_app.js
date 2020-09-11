@@ -8,7 +8,10 @@ import "../styles/animations.css";
 const MyApp = ({ Component, pageProps }) => (
   <Fragment>
     <Head>
-      <link href='https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap' rel='stylesheet' />
+      <link
+        href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap'
+        rel='stylesheet'
+      />
     </Head>
     <Component {...pageProps} />
   </Fragment>

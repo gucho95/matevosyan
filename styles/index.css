@@ -4,7 +4,7 @@
 html,
 body {
   @apply bg-primary-light text-primary-light;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Montserrat", sans-serif;
   background-color: #dfdbe5;
   background-image: url("/images/bg.png");
   background-attachment: fixed;

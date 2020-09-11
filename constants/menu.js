@@ -8,8 +8,8 @@ export default (lang) => [
     href: `/${lang}/skills`,
   },
   {
-    t_key: "portfolio",
-    href: `/${lang}/portfolio`,
+    t_key: "works",
+    href: `/${lang}/works`,
   },
   {
     t_key: "contact",
