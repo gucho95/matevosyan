@@ -25,10 +25,13 @@ module.exports = {
       padding: {
         "75px": "75px",
       },
+      backgroundColor: {
+        overlay: "rgba(0,0,0,0.6)",
+      },
       animation: {
         "slide-fwd-center": "slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both",
-        border: "border-anim 0.7s steps(3,end) infinite",
-        "border-white": "border-anim-white 0.7s steps(3,end) infinite",
+        border: "border-anim 0.5s ease-in-out",
+        "border-white": "border-anim-white 0.5s ease-in-out ",
       },
       colors: {
         "primary-dark": "#212121",
@@ -38,6 +41,12 @@ module.exports = {
   },
   variants: {
     animation: ["hover"],
+    height: ["group-hover"],
+    width: ["group-hover"],
+    overflow: ["group-hover"],
+    opacity: ["group-hover"],
+    padding: ["group-hover"],
+    scale: ["group-hover"],
   },
   plugins: [],
 };

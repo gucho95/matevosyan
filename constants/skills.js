@@ -46,14 +46,6 @@ export default [
     icon: "/images/skills/firebase.svg",
   },
   {
-    name: "Postman",
-    icon: "/images/skills/postman.svg",
-  },
-  {
-    name: "Git",
-    icon: "/images/skills/git.svg",
-  },
-  {
     name: "Tailwind CSS",
     icon: "/images/skills/tailwind.svg",
   },
@@ -64,5 +56,9 @@ export default [
   {
     name: "Next JS",
     icon: "/images/skills/next.svg",
+  },
+  {
+    name: "Mongo DB",
+    icon: "/images/skills/mongodb.svg",
   },
 ];

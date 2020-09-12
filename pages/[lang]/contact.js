@@ -8,7 +8,7 @@ const Contact = () => {
         {contacts.map((item, key) => (
           <div
             key={key}
-            className='flex justify-start items-center p-2  shadow-xs hover:opacity-75  duration-500 transition-all hover:animate-border '
+            className='flex justify-start items-center p-2  shadow-xs hover:opacity-75  duration-500 transition-all '
           >
             <div className='w-8'>
               <img src={item.icon} />
