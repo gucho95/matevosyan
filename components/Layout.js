@@ -10,7 +10,7 @@ const Layout = ({ children, i18n }) => {
     <Fragment>
       <LanguageSwitcher i18n={i18n} />
       <Menu />
-      <div className='container'>
+      <div className='container border-2 xl:border-red-700'>
         <div className='relative bg-white shadow-lg scale-in-center'>
           <div className='absolute w-full left-0 -top-75px '>
             <Link href={`/${language}`}>

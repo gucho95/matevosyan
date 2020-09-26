@@ -5,6 +5,13 @@ module.exports = {
   },
   purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      xs: "0px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1200px",
+    },
     container: {
       center: true,
     },
@@ -48,5 +55,27 @@ module.exports = {
     padding: ["group-hover"],
     scale: ["group-hover"],
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          "@screen xs": {
+            maxWidth: "100%",
+          },
+          "@screen sm": {
+            maxWidth: "640px",
+          },
+          "@screen md": {
+            maxWidth: "768px",
+          },
+          "@screen lg": {
+            maxWidth: "1024px",
+          },
+          "@screen xl": {
+            maxWidth: "1600px",
+          },
+        },
+      });
+    },
+  ],
 };

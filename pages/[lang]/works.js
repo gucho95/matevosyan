@@ -8,7 +8,7 @@ const Works = ({ t }) => {
     <Layout>
       <div className='grid grid-cols-3 gap-6 py-16'>
         {works.map((work, key) => (
-          <Fragment>
+          <Fragment key={key}>
             <div className='group shadow-xs    transition-all duration-500  select-none relative border-2 border-transparent  '>
               <div className=' overflow-hidden transition-all duration-300 '>
                 <img src={work.image} className='w-full ' />
@@ -28,7 +28,9 @@ const Works = ({ t }) => {
                 </div>
                 <div className='flex flex-wrap gap-3 justify-center mt-16 p-4  '>
                   {work.tags.map((tag) => (
-                    <div className='bg-white text-black p-2 rounded-lg opacity-75 shadow-md'>{tag}</div>
+                    <div className='bg-white text-black p-2 rounded-lg opacity-75 shadow-md' key={tag}>
+                      {tag}
+                    </div>
                   ))}
                 </div>
               </div>

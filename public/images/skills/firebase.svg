@@ -19,12 +19,12 @@
 	<g>
 		<path d="M0,282.99762 L2.12250746,280.0256 L102.527363,89.5119284 L102.739423,87.4951323 L58.478806,4.35817711 C54.7706269,-2.60604179 44.3313035,-0.845245771 43.1143483,6.95065473 L0,282.99762 Z" fill="#FFC24A"></path>
 		<g>
-			<use fill="#FFA712" fill-rule="evenodd" xlink:href="#path-1"></use>
+			<use fill="#FFA712" fillRule="evenodd" xlink:href="#path-1"></use>
 			<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
 		</g>
 		<path d="M135.004975,150.380704 L167.960199,116.629461 L134.995423,53.6993114 C131.866109,47.7425353 123.128817,47.7253411 120.032618,53.6993112 L102.421015,87.2880848 L102.421015,90.1487443 L135.004975,150.380704 Z" fill="#F4BD62"></path>
 		<g>
-			<use fill="#FFA50E" fill-rule="evenodd" xlink:href="#path-3"></use>
+			<use fill="#FFA50E" fillRule="evenodd" xlink:href="#path-3"></use>
 			<use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
 		</g>
 		<polygon fill="#F6820C" points="0 282.99762 0.962097168 282.030396 4.45771144 280.60956 132.935323 152.60956 134.563025 148.178595 102.513123 87.1048584"></polygon>
