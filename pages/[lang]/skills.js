@@ -4,7 +4,7 @@ import skills from "constants/skills";
 const Skills = () => {
   return (
     <Layout>
-      <div className='flex flex-wrap justify-start gap-6 py-16'>
+      <div className='flex flex-wrap justify-center gap-6 py-16'>
         {skills.map((skill, key) => (
           <div
             className=' flex justify-center items-center flex-col  w-150px shadow-xs border-2 border-transparent  transition-all duration-500 hover:animate-border select-none'

@@ -22,7 +22,7 @@ const Menu = ({ t, i18n }) => {
           <ul className='menu-in-anim'>
             {Items(language).map((item, key) => (
               <li
-                className='text-6xl text-center  hover:opacity-75 hover:animate-border-white border-2 border-transparent'
+                className='md:text-6xl xs:text-3xl text-center  hover:opacity-75 hover:animate-border-white border-2 border-transparent'
                 key={key}
               >
                 <Link href={item.href}>

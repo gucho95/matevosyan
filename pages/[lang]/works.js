@@ -6,7 +6,7 @@ import { Fragment } from "react";
 const Works = ({ t }) => {
   return (
     <Layout>
-      <div className='grid grid-cols-3 gap-6 py-16'>
+      <div className='grid xl:grid-cols-3 flex-wrap gap-6 py-16'>
         {works.map((work, key) => (
           <Fragment key={key}>
             <div className='group shadow-xs    transition-all duration-500  select-none relative border-2 border-transparent  '>
@@ -21,7 +21,7 @@ const Works = ({ t }) => {
                   <a
                     href={work.path}
                     target='_blank'
-                    className='underline border-2 border-white p-4 hover:bg-white hover:text-black '
+                    className='underline border-2 border-white xl:p-4 xs:p-1 hover:bg-white hover:text-black block '
                   >
                     {t("open_project")}
                   </a>

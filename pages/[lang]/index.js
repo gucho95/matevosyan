@@ -5,9 +5,9 @@ import Layout from "components/Layout";
 const Homepage = ({ t, ...props }) => {
   return (
     <Layout>
-      <div className='flex  justify-around py-8'>
-        <div>
-          <h1 className='text-3xl'>{t("common:name")}</h1>
+      <div className='flex  xl:justify-around py-8 xl:flex-row xs:flex-col xs:justify-center xs:text-sm md:text-base'>
+        <div className='flex flex-col  xl:items-start xs:items-center '>
+          <h1 className='md:text-3xl xs:text-2xl font-bold'>{t("common:name")}</h1>
           <ul>
             <li className='mt-2'>
               <Point icon='code' text={t("common:position")} />
@@ -21,7 +21,7 @@ const Homepage = ({ t, ...props }) => {
           </ul>
         </div>
 
-        <div className='uppercase'>
+        <div className='uppercase xs:mt-16 xl:mt-0 xs:text-xs md:text-base'>
           <div className='border-b-2 border-gray-200 pb-4'>
             <p className='font-bold text'>{t("school")}</p>
             <p className='text-gray-900 text-xs'>2002-2013</p>

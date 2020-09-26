@@ -4,7 +4,7 @@ import contacts from "constants/contacts";
 const Contact = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-2 py-8 gap-6'>
+      <div className='grid xs:grid-cols-1 xl:grid-cols-2 py-8 gap-6'>
         {contacts.map((item, key) => (
           <div
             key={key}

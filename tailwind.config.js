@@ -9,7 +9,6 @@ module.exports = {
       xs: "0px",
       sm: "640px",
       md: "768px",
-      lg: "1024px",
       xl: "1200px",
     },
     container: {
@@ -18,13 +17,16 @@ module.exports = {
     extend: {
       width: {
         "150px": "150px",
+        "100px": "100px",
       },
       height: {
         "150px": "150px",
+        "100px": "100px",
       },
       inset: {
         "75px": "75px",
         "-75px": "-75px",
+        "-50px": "-50px",
       },
       margin: {
         "75px": "75px",
@@ -48,11 +50,12 @@ module.exports = {
   },
   variants: {
     animation: ["hover"],
-    height: ["group-hover"],
-    width: ["group-hover"],
+    inset: ["responsive"],
+    height: ["group-hover", "responsive"],
+    width: ["group-hover", "responsive"],
     overflow: ["group-hover"],
     opacity: ["group-hover"],
-    padding: ["group-hover"],
+    padding: ["group-hover", "responsive"],
     scale: ["group-hover"],
   },
   plugins: [
@@ -60,19 +63,16 @@ module.exports = {
       addComponents({
         ".container": {
           "@screen xs": {
-            maxWidth: "100%",
+            maxWidth: "94%",
           },
           "@screen sm": {
             maxWidth: "640px",
           },
           "@screen md": {
-            maxWidth: "768px",
-          },
-          "@screen lg": {
-            maxWidth: "1024px",
+            maxWidth: "740px",
           },
           "@screen xl": {
-            maxWidth: "1600px",
+            maxWidth: "1160px",
           },
         },
       });
