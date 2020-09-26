@@ -8,7 +8,7 @@ const LanguageSwitcher = ({ i18n }) => {
 
   return (
     <div
-      className={`fixed left-0 top-0 ml-12 mt-12 cursor-pointer hover:opacity-75 z-50 transition-all duration-300 select-none focus:outline-none  `}
+      className={`xl:fixed xs:absolute left-0 top-0 ml-12 xl:mt-12 xs:mt-6 cursor-pointer hover:opacity-75 z-50 transition-all duration-300 select-none focus:outline-none  `}
     >
       <div className='relative inline-block text-right'>
         <div>

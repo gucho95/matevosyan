@@ -10,7 +10,7 @@ const Menu = ({ t, i18n }) => {
   return (
     <Fragment>
       <div
-        className={`w-12 fixed right-0 top-0 mr-12 mt-12 cursor-pointer hover:opacity-75 z-50 transition-all duration-300 select-none ${
+        className={`w-12 xl:fixed xs:absolute right-0 top-0 mr-12 xl:mt-12 xs:mt-6 cursor-pointer hover:opacity-75 z-50 transition-all duration-300 select-none ${
           visible ? "text-white" : "text-black"
         }`}
         children={visible ? Icons.close : Icons.menu}
