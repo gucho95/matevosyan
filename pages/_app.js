@@ -15,6 +15,12 @@ const MyApp = ({ Component, pageProps }) => (
         rel='stylesheet'
       />
       <meta name='google-site-verification' content='3FFvixAfe9M59vzdW5JrL5lXVpd96VLc5b08Z2JAIUw' />
+      <meta charset='UTF-8' />
+      <meta name='description' content='Mkrtich Matevosyan personal website' />
+      <meta name='keywords' content='Armenia,Full Stack,Javascript,Developer,Node.js,React.js' />
+      <meta name='author' content='Mkrtich Matevosyan' />
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <title>Mkrtich Matevosyan | Full Stack Developer</title>
     </Head>
     <Component {...pageProps} />
   </Fragment>
