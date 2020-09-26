@@ -3,84 +3,60 @@
 		<loc>
 			https://matevosyan.vercel.app/en
 		</loc>
-		<link rel="alternate" hreflang="ru" href="https://matevosyan.vercel.app/ru" />
-		<link rel="alternate" hreflang="hy" href="https://matevosyan.vercel.app/hy" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/hy
 		</loc>
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/ru
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/ru/skills
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/skills" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/skills" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/hy/skills
 		</loc>
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/skills" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/skills" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/en/skills
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/skills" />
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/skills" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/ru/works
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/works" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/works" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/hy/works
 		</loc>
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/works" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/works" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/en/works
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/works" />
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/works" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/ru/contact
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/contact" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/contact" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/hy/contact
 		</loc>
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/contact" />
-		<link rel="alternate" hreflang="en" href="http://www.example.com/en/contact" />
 	</url>
 	<url>
 		<loc>
 			https://matevosyan.vercel.app/en/contact
 		</loc>
-		<link rel="alternate" hreflang="hy" href="http://www.example.com/hy/contact" />
-		<link rel="alternate" hreflang="ru" href="http://www.example.com/ru/contact" />
 	</url>
 </urlset>
