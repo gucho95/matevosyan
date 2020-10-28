@@ -14,6 +14,9 @@ const MyApp = ({ Component, pageProps }) => (
         href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap'
         rel='stylesheet'
       />
+      <link rel='alternate' href={`${process.env.NEXT_PUBLIC_DOMAIN}/en`} hreflang='en' />
+      <link rel='alternate' href={`${process.env.NEXT_PUBLIC_DOMAIN}/hy`} hreflang='hy' />
+      <link rel='alternate' href={`${process.env.NEXT_PUBLIC_DOMAIN}/ru`} hreflang='ru' />
       <meta name='google-site-verification' content='3FFvixAfe9M59vzdW5JrL5lXVpd96VLc5b08Z2JAIUw' />
       <meta charset='UTF-8' />
       <meta name='description' content='Mkrtich Matevosyan personal website' />
