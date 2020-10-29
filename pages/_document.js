@@ -14,16 +14,6 @@ const schemaPerson = {
   url: "https://matevosyan.vercel.app/",
   image: "https://matevosyan.vercel.app/images/avatar.jpg",
   email: "matevosyanmko@gmail.com",
-  foundingDate: "2020",
-  foundingLocation: "Yerevan, Armenia",
-  location: {
-    "@type": "Place",
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "Armenia",
-      addressLocality: "Yerevan",
-    },
-  },
   description: "Mkrtich Matevosyan - Full Stack Developer ",
   name: "Mkrtich Matevosyan",
   contactPoint: [
