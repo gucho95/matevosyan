@@ -11,13 +11,14 @@ const Layout = ({ children, i18n }) => {
       <LanguageSwitcher i18n={i18n} />
       <Menu />
       <div className='container'>
-        <div className='relative bg-white shadow-lg scale-in-center'>
+        <div className='relative bg-white shadow-lg scale-in-center' itemScope itemType='http://schema.org/Person'>
           <div className='absolute w-full left-0 md:-top-75px xs:-top-50px '>
             <Link href={`/${language}`}>
               <a>
                 <img
                   src='/images/avatar.jpg'
                   className='md:w-150px md:h-150px xs:w-100px xs:h-100px rounded-full m-auto  transition-all duration-300 hover:animate-border border-2 border-transparent '
+                  itemProp='image'
                 />
               </a>
             </Link>
