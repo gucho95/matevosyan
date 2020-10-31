@@ -26,7 +26,7 @@ const Contact = ({ t, i18n }) => {
               className='flex justify-between items-center p-2  shadow-xs hover:opacity-75  duration-500 transition-all '
             >
               <div className='w-1/12'>
-                <img src={item.icon} />
+                <img src={item.icon} alt={item.name} />
               </div>
               <div className='w-10/12 overflow-hidden truncate'>
                 <a

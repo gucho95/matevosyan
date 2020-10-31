@@ -24,7 +24,7 @@ const Works = ({ t, i18n }) => {
             <Fragment key={key}>
               <div className='group shadow-xs    transition-all duration-500  select-none relative border-2 border-transparent  '>
                 <div className=' overflow-hidden transition-all duration-300 '>
-                  <img src={work.image} className='w-full ' />
+                  <img src={work.image} className='w-full ' alt={work.name} />
                   <p className='text-center py-2   text-white w-full mx-0 px-0  bg-black  group-hover:text-red-600'>
                     {work.name}
                   </p>

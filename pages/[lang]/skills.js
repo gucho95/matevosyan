@@ -25,7 +25,7 @@ const Skills = ({ t, i18n }) => {
               className=' flex justify-center items-center flex-col  w-150px shadow-xs border-2 border-transparent  transition-all duration-500 hover:animate-border select-none'
               key={key}
             >
-              <img src={skill.icon} className='h-150px w-auto object-contain p-4' />
+              <img src={skill.icon} className='h-150px w-auto object-contain p-4' alt={DataTransferItem.name} />
               <p className='text-center py-2 bg-black text-white w-full mx-0 px-0'>{skill.name}</p>
             </div>
           ))}
