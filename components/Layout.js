@@ -18,7 +18,6 @@ const Layout = ({ children, i18n }) => {
                 <img
                   src='/images/avatar.jpg'
                   className='md:w-150px md:h-150px xs:w-100px xs:h-100px rounded-full m-auto  transition-all duration-300 hover:animate-border border-2 border-transparent '
-                  itemProp='image'
                 />
               </a>
             </Link>
