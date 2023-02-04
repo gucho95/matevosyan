@@ -64,31 +64,61 @@ const Homepage = ({ t, i18n, ...props }) => {
             </div>
 
             <div className="mt-8 border-b-2 border-gray-200 pb-4">
-              <p className="font-bold ">{t("university")}</p>
+              <a
+                href="https://polytech.am/en/home/"
+                target="_blank"
+                className="underline"
+              >
+                <p className="font-bold ">{t("university")}</p>
+              </a>
               <p className="text-sm">{t("faculty")}</p>
               <p className="text-gray-900 text-xs">2013-2019</p>
             </div>
 
             <div className="mt-8 border-b-2 border-gray-200 pb-4">
-              <p className="font-bold ">{t("innosoft")}</p>
+              <a
+                href="https://www.facebook.com/Innosoft.am/"
+                target="_blank"
+                className="underline"
+              >
+                <p className="font-bold ">{t("innosoft")}</p>
+              </a>
               <p className="text-sm">{t("innosoft_position")}</p>
               <p className=" text-gray-900 text-xs">2017-2019</p>
             </div>
 
             <div className="mt-8 border-b-2 border-gray-200 pb-4">
-              <p className="font-bold ">{t("armath")}</p>
+              <a
+                href="https://armath.am/"
+                target="_blank"
+                className="underline"
+              >
+                <p className="font-bold ">{t("armath")}</p>
+              </a>
               <p className="text-sm">{t("armath_position")}</p>
               <p className="text-gray-900 text-xs">2018 - 2020</p>
             </div>
 
             <div className="mt-8 border-b-2 border-gray-200 pb-4">
-              <p className="font-bold">{t("jsight")}</p>
+              <a
+                href="https://jsight.io/"
+                target="_blank"
+                className="underline"
+              >
+                <p className="font-bold">{t("jsight")}</p>
+              </a>
               <p className="text-sm">{t("tpl_position")}</p>
               <p className="text-gray-900 text-xs">2021 - 2022</p>
             </div>
 
             <div className="mt-8 border-b-2 border-gray-200 pb-4">
-              <p className="font-bold">{t("tpl")}</p>
+              <a
+                href="https://www.tidepoollabs.com/"
+                target="_blank"
+                className="underline"
+              >
+                <p className="font-bold">{t("tpl")}</p>
+              </a>
               <p className="text-sm">{t("tpl_position")}</p>
               <p className="text-gray-900 text-xs">2019- ...</p>
             </div>
