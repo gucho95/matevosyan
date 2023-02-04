@@ -3,10 +3,11 @@
   "army": "Служба в армии",
   "university": "Национальный Политехнический Университет Армении",
   "faculty": "Информационные технологии -  Бакалавр",
-  "innosoft": "Иннософт",
+  "innosoft": "Innosoft",
   "innosoft_position": "React.js программист",
   "armath": "АРМАТ ИНЖЕНЕРНЫЕ ЛАБОРАТОРИИ",
   "armath_position": "Тренер",
-  "tpl": "TIDEPOOL LABS ЕВРОПА",
-  "tpl_position": "React.js программист"
+  "tpl": "TIDEPOOL LABS",
+  "tpl_position": "React.js программист",
+  "jsight": "JSIGHT"
 }
